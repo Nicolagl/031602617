@@ -15,7 +15,30 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\WordCount.cpp">
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="arg_handle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CountWords.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WordCount.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="arg_handle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CountWord.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="源.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
